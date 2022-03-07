@@ -10,25 +10,25 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Escolhendo os parametros',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Você escolhe os parametros de busca e coleta de dados que quiser baseado no seu mercado e nos seus produtos.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Big Data entrando em ação',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Analise por inteligencia articial',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Visualização de dados nas suas mãos',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -40,7 +40,7 @@ export default function WorkFlow() {
       <Container>
         <SectionHeader
           slogan="Whats the function"
-          title="Let’s see how it works"
+          title="Vamos ver como funciona"
           isWhite={true}
         />
 
