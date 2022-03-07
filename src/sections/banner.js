@@ -2,6 +2,7 @@
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
 import BannerImg from 'assets/banner-thumb.png';
+import DashboardSVG from 'assets/dashboard.svg';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -11,18 +12,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Digital Products To Explore
+            Data-Analysis Software Moldado Para o Seu Negócio
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            Tenha acesso a todos dados de tendências de produtos relacionados a sua empresa
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="primary">Explorar</Button>
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
+          <Image src={DashboardSVG} alt="banner" />
         </Box>
       </Container>
     </section>
