@@ -13,7 +13,7 @@ const data = [
     id: 1,
     imgSrc: Performance,
     altText: 'Fast Performance',
-    title: 'Fast Performance',
+    title: 'Relatórios diarios',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -21,7 +21,7 @@ const data = [
     id: 2,
     imgSrc: Partnership,
     altText: 'Partnership deal',
-    title: 'Partnership deal',
+    title: 'Moldado ao seu negócio',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -29,7 +29,7 @@ const data = [
     id: 3,
     imgSrc: Subscription,
     altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    title: 'Esteja a frente',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -37,7 +37,7 @@ const data = [
     id: 4,
     imgSrc: Support,
     altText: 'Customer Support',
-    title: 'Customer Support',
+    title: 'Suporte ao Usuario',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -48,8 +48,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Meet the feature of product"
+          slogan="A função da TendenceB"
+          title="Conheça o futuro do mercado"
         />
 
         <Grid sx={styles.grid}>

@@ -15,15 +15,15 @@ import TextFeature from 'components/text-feature';
 import ModalVideo from 'react-modal-video';
 import { IoIosPlay } from 'react-icons/io';
 
-import ServiceThumb from 'assets/service-thumb.png';
+import BusinessManSVG from 'assets/businessman.svg';
 import shapePattern from 'assets/shape-pattern1.png';
 
 import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  subTitle: 'nossos serviços',
+  title: 'Crescendo Empresas Através de Informação e Design',
   features: [
     {
       id: 1,
@@ -55,8 +55,9 @@ export default function ServiceSection() {
     <section sx={{ variant: 'section.services' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="Thumbnail" />
-          <Button
+          <Image src={BusinessManSVG} alt="Thumbnail" />
+
+          {/* <Button
             sx={styles.videoBtn}
             onClick={handleClick}
             aria-label="Play Button"
@@ -64,7 +65,7 @@ export default function ServiceSection() {
             <span>
               <IoIosPlay />
             </span>
-          </Button>
+          </Button> */}
 
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="Shape" />
